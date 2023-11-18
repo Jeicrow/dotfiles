@@ -78,7 +78,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Redshift
     ([mod], "r", lazy.spawn("redshift -O 2400")),
-    ([mod, "shift"], "r", lazy.spawn("xrandr --output eDP1 --gamma 0.7:0.7:0.7  --brightness 1.3")),
+    ([mod, "shift"], "r", lazy.spawn("xrandr --output eDP1 --gamma 0.5:0.5:0.5  --brightness 1.4")),
 
     # Screenshot
     ([mod], "s", lazy.spawn("scrot")),
